@@ -1,0 +1,67 @@
+.headEditor {
+  background-color: #000000;
+  color: white;
+  border-radius: 10px 10px 0 0;
+  border: none;
+  padding-left: 20px;
+}
+
+.editorBlock {
+  width: 49%;
+}
+
+.editorContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.htmlCode {
+  background-color: white;
+  width: 100%;
+  height: 50vh;
+  margin-top: 20px;
+  border-radius: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.headEditor {
+  background-color: #000000;
+  color: white;
+  border-radius: 10px 10px 0 0;
+  border: none;
+  padding-left: 20px;
+}
+
+.editorBlock {
+  width: 99%;
+}
+
+.ace_gutter {
+  z-index: 0;
+}
+
+.editorContainer {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+}
+
+.htmlCode {
+  background-color: white;
+  width: 100%;
+  height: 80%;
+  margin-top: 20px;
+  border-radius: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+}
+
+.renderHtmlThis {
+  width: 100%;
+}

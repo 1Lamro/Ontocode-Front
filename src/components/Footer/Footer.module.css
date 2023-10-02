@@ -1,0 +1,57 @@
+.footer{
+   width: 100%; 
+   border-top: 1px solid black;
+   margin-top: 50px;
+   background-color: #d2daff;
+   padding-top: 20px;
+   box-sizing: border-box;
+}
+
+.info {
+    margin: auto;
+    width: 65%;
+    display: flex;
+    justify-content:space-between;
+}
+
+.under{
+    margin: auto;
+    width: 65%;
+    display: flex;
+    border-top: 1px solid black;
+    justify-content: space-between;
+}
+
+
+.under1{
+    display: flex;
+    font-size: 14px;
+}
+
+.under1 div {
+    margin-right: 10px;
+}
+
+.contacts img {
+    width: 30px;
+    margin-top: 5px;
+}
+
+ p{
+    margin-bottom: 5px;
+}
+
+.company img {
+    width: 25px;
+    margin-top: 5px;
+}
+.photo {
+    width: 25px;
+    height: 25px;
+    margin-top: 5px;
+}
+.lp {
+    width: 20px;
+    margin-top: 5px;
+    height: 20px;
+}

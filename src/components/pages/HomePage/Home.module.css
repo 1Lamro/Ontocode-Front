@@ -1,0 +1,308 @@
+.firstBlock {
+  display: flex;
+  width: 65%;
+  margin: auto;
+  background-color: white;
+  border-radius: 10px 10px 0 0;
+}
+
+.courseBlock {
+  height: 300px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  gap: 20px;
+  justify-items: center;
+}
+
+.courseBlock {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  color: rgb(0, 0, 0);
+  border: 1px solid rgb(112, 112, 112);
+  transition: 0.2s;
+  border-radius: 5px;
+  background-color: #ffffff;
+  text-decoration: none;
+}
+
+.courseBlock:hover {
+  transform: translate(5px, -5px);
+  box-shadow: -5px 5px;
+  transition: 0.2s;
+}
+
+.typeAccess {
+  border-radius: 5px 5px 0 0;
+  background-color: #eafdc6;
+  padding: 0 12px;
+  box-sizing: border-box;
+}
+
+.blockCont {
+  padding: 0 12px;
+}
+
+.secondBlock {
+  left: 0;
+  right: 0;
+  width: 99.9vw;
+  background-color: #10162f;
+  color: white;
+  box-sizing: border-box;
+}
+
+.secondBlockCont {
+  width: 65%;
+  margin: auto;
+}
+
+.thirdBlock {
+  width: 100%;
+}
+
+.thirdBlockCont {
+  display: flex;
+  width: 65%;
+  margin: auto;
+  height: 300px;
+  transition-property: all;
+  transition-duration: 0.5s;
+}
+
+.first,
+.second,
+.third,
+.fourth {
+  width: 25%;
+  height: 100%;
+  background-color: #10162f;
+  transition-duration: 0.5s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.image {
+  height: 50%;
+}
+
+.photo {
+  margin-top: 30px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #fff;
+  object-fit: cover;
+}
+
+.adam {
+  object-position: top;
+}
+
+.title {
+  padding: 40px;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #e8e8e8;
+}
+
+.min {
+  width: 150px;
+  color: #e8e8e8;
+  transition: color 0.5s;
+}
+
+.max {
+  width: 100%;
+  visibility: hidden;
+  opacity: 0;
+  margin-top: 10px;
+}
+
+.first:hover {
+  width: 40%;
+  background-color: #e8e8e8;
+
+  .max {
+    width: 70%;
+    visibility: visible;
+    opacity: 1;
+    color: #10162f;
+  }
+
+  .min {
+    color: #10162f;
+  }
+}
+
+.first:hover ~ .second,
+.first:hover ~ .third,
+.first:hover ~ .fourth {
+  width: 20%;
+}
+
+.second:hover {
+  width: 40%;
+  background-color: #e8e8e8;
+
+  .max {
+    width: 70%;
+    visibility: visible;
+    opacity: 1;
+    color: #10162f;
+  }
+
+  .min {
+    color: #10162f;
+  }
+}
+
+.second:hover ~ .first,
+.second:hover ~ .third,
+.second:hover ~ .fourth {
+  width: 20%;
+}
+
+.third:hover {
+  width: 40%;
+  background-color: #e8e8e8;
+
+  .max {
+    width: 70%;
+    visibility: visible;
+    color: #10162f;
+  }
+
+  .min {
+    color: #10162f;
+  }
+}
+
+.third:hover ~ .first,
+.third:hover ~ .second,
+.third:hover ~ .fourth {
+  width: 20%;
+}
+
+.fourth:hover {
+  width: 40%;
+  background-color: #e8e8e8;
+
+  .max {
+    width: 70%;
+    visibility: visible;
+    opacity: 1;
+    color: #212121;
+  }
+
+  .min {
+    color: #212121;
+  }
+}
+
+.fourth:hover ~ .first,
+.fourth:hover ~ .second,
+.fourth:hover ~ .third {
+  width: 20%;
+}
+
+.imageCont {
+  width: 50%;
+}
+
+.homepage1 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.regForm {
+  width: 50%;
+}
+
+.regForm :first-child {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.error {
+  color: rgb(255, 115, 115);
+}
+
+.form {
+  width: 80%;
+  background-color: white;
+}
+
+.form input {
+  margin: auto;
+  margin-top: 10px;
+  -webkit-box-shadow: 0px 0px 12px 4px rgba(34, 60, 80, 0.23) inset;
+  -moz-box-shadow: 0px 0px 12px 4px rgba(34, 60, 80, 0.23) inset;
+  box-shadow: 0px 0px 6px 2px rgba(34, 60, 80, 0.23) inset;
+}
+
+#h2 {
+  text-align: center;
+}
+
+.text {
+  width: 80%;
+  font-size: 12px;
+
+}
+
+.but {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.regButton {
+    width: 100%;
+    margin: auto;
+    background-color: #4f69ff;
+    border: 0;
+    color: white;
+    height: 30px;
+    border-radius: 6px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    transition: 0.1s ease;
+    
+}
+
+.regButton:hover {
+    background-color: #263cbc;
+    transition: 0.1s ease;
+}
+
+.text5 {
+  width: 50%;
+  font-size: 50px;
+  vertical-align: center;
+  font-weight: bold;
+}
+.text6 {
+  width: 65%;
+  margin: auto;
+  font-size: 50px;
+  vertical-align: center;
+  font-weight: bold;
+  color: white;
+  background-color: #10162f;
+  text-align: center;
+}
